@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import random
 import re
-from google import genai
+import google.generativeai as genai
 from google.genai import types
 
 st.set_page_config(page_title="AI English Teacher", page_icon="🇬🇧")
